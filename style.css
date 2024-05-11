@@ -231,8 +231,8 @@ html {
 
 .container .AI {
   position: relative;
-  width: 645px;
-  height: 444px;
+  width: auto;
+  height: auto;
 }
 
 .container .feature-text {
@@ -306,7 +306,7 @@ html {
 .container .feature-2 {
   display: inline-flex;
   align-items: center;
-  gap: 111px;
+  gap: 70px;
   margin-left: -3px;
   margin-right: -3px;
   position: relative;
@@ -323,11 +323,13 @@ html {
   flex: 0 0 auto;
 }
 
-.container .dn-d {
+.gif {
   position: relative;
-  width: 608px;
-  height: 444px;
+  width: 500px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio without distortion */
 }
+
 
 .container .feature-3 {
   display: inline-flex;
