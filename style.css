@@ -552,3 +552,15 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+.reflection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10%;
+}
+
+.reflection img {
+  width: 600px;
+  height: auto;
+}
