@@ -94,4 +94,22 @@ section {
     display: block;
     margin: 20px auto;
   }
+  .flex-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+
+.gif-container {
+    flex: 1;
+    margin-right: 10px; /* Adjust spacing between GIFs */
+}
+
+.gif-container:last-child {
+    margin-right: 0; /* Remove margin from the last GIF container */
+}
+
+.gif-container img {
+    width: 100%; /* Ensure GIFs fill their container */
+}
 
